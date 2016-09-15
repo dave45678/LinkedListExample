@@ -46,7 +46,7 @@ public class LinkedListBasicOperations {
     }
     public static String getListAsCsvString(LinkedList<String> list, char delim){
         
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new StringBuilder();        
         for(String str:list){
             if(sb.length() != 0){
                 sb.append(delim);
